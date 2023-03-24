@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", "Sans-serif";
+}
+#hero{
+    background-image: url(/images/portrait-bg.webp);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;    
+}
+#hero h1{
+    padding: 100px 0px;
+    text-align: center;
+    font-size: 5em;
+    color: white;
+}
+.section-about{
+    padding: 60px 0px;
+}
+.section-about h2{
+    font-family: cursive;
+    text-align: center;
+    font-weight: 900;
+    font-size: 35px;
+}
+.section-about .row{
+    justify-content: center;
+}
+.section-about p{
+    font-size: 19px;
+}
+
+
+
+
+@media only screen and (max-width:767px) {
+    #hero h1 {
+        font-size: 3em;
+    }
+}

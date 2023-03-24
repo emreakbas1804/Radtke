@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", "Sans-serif";
+}
+
+#hero {
+    background-image: url(/images/kontakt-bg.webp);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+}
+
+#hero h1 {
+    padding: 100px 0px;
+    text-align: center;
+    font-size: 5em;
+    color: white;
+}
+
+.contact-form {
+    padding: 50px 0px;
+}
+
+.contact-form .row {
+    justify-content: center;
+    text-align: center;
+}
+
+.contact-form input {
+    width: 49%;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+.contact-form textarea {
+    width: 98%;
+    padding: 5px;
+}
+
+.contact-form button {
+    float: right;
+    background-color: #306690;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+.section-contact {
+    padding: 100px 0px;
+    text-align: center;
+}
+
+.section-contact .box {
+    border: 1px solid #306690;
+    padding: 15px;
+    margin: 10px 0px;
+}
+
+.section-contact i {
+    text-align: center;
+    color: #306690;
+    font-size: 40px;
+}
+
+.section-contact .head {
+    text-align: center;
+    font-weight: 900;
+}
+
+.section-contact .value {
+    text-align: center;
+    font-size: 22px;
+}
+
+@media only screen and (max-width:767px) {
+    #hero h1 {
+        font-size: 3em;
+    }
+}

@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", "Sans-serif";
+}
+#hero{
+    background-image: url(/images/lehrmaterial-bg.webp);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;    
+}
+#hero h1{
+    padding: 100px 0px;
+    text-align: center;
+    font-size: 5em;
+    color: white;
+}
+.section-books {
+    padding: 70px 0px;
+}
+
+.section-books .book {
+    padding: 10px;
+    box-shadow: 5px 5px 10px rgb(220, 220, 220);
+    margin-top: 50px;
+}
+
+.section-books h2 {
+    margin-top: 60px;
+}
+
+.section-books p {
+    font-size: 20px;
+    opacity: .85;
+}
+
+.section-books .col-md-4 {
+    text-align: center;
+}
+
+.section-books img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.section-books button {
+    background-color: #66862f;
+    padding: 10px 15px;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+
+@media only screen and (max-width:767px) {
+    #hero h1 {
+        font-size: 3em;
+    }
+    .section-books .book {        
+        box-shadow: 5px 1px 10px rgb(220, 220, 220);
+        text-align: center;      
+    }
+    .section-books h2 {
+        margin-top: 20px;
+    }
+    .section-books img {
+        margin: 30px 0px;
+    }
+}

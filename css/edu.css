@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", "Sans-serif";
+}
+nav{
+    background-color: #4c3828;    
+    padding-bottom: 15px;
+}
+.section-edu{
+    padding: 60px 0px;
+}
+.section-edu h2{
+    text-align: center;
+    border-bottom: 1px solid #4c3828;
+    padding: 10px;
+}
+.section-edu .text-row{
+    justify-content: center;
+    margin-top: 30px;
+}
+.section-edu p{
+    font-size: 19px;
+}
+.section-edu img{
+    width: 100%;
+    padding: 30px 0px;
+}
+@media only screen and (max-width:767px) {
+    #hero h1 {
+        font-size: 3em;
+    }
+    
+}

@@ -1,0 +1,42 @@
+.footer{
+    background-color: black;
+    color: white;
+    padding: 50px 0px;
+}
+.footer p{
+    font-size: 18px;
+}
+.footer img{
+    width: 275px;
+    border-bottom: 1px solid white;
+}
+.footer li{
+    list-style-type: none;
+    margin-top: 13px;
+    font-size: 18px;
+}
+.footer li a{
+    text-decoration: none;
+    color: white;
+}
+.footer a:hover{
+    border-bottom: 1px solid white;
+}
+.footer h3{
+    border-bottom: 1px solid white;
+    display: inline-block;
+    padding: 0px 10px;
+}
+.footer .contact ul{
+    padding: 0;
+}
+.footer .contact i{
+    font-size: 20px;
+    margin-right: 10px;
+}
+@media only screen and (max-width:767px) {
+   .footer .contact{
+    margin-top: 20px;
+   }
+   
+}
